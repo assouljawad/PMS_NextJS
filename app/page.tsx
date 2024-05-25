@@ -9,7 +9,7 @@ import Beauty from "@/components/frontend/homepage/beauty";
 
 export default function Home() {
   return (
-    <main className="mx-auto w-3/4">
+    <main className="mx-auto w-3/4 flex flex-col gap-8 mt-10">
       <Category/>
       <Slideshow/>
       <TopOfThisMonth/>
@@ -17,71 +17,6 @@ export default function Home() {
       <FoodAndWellness/>
       <Beauty/>
       <NewsLetter/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
-      <Footer/>
       <Footer/>
     </main>
   );

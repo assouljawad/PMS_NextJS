@@ -10,10 +10,10 @@ function Header() {
   return (
    <div className='bg-white mt-6 w-full'>
     <div className='flex justify-between items-center mx-auto p-4 w-3/4'>
-      <div className='flex gap-2 items-center'>
+      <Link href={"/"} className='flex gap-2 items-center cursor-pointer'>
       <IoNewspaperOutline className='text-4xl' />
       <span className='text-3xl font-bold'>BlogPost</span>
-      </div>  
+      </Link>  
       <div className='bg-[#F4F4F4] p-2 rounded-full flex items-center justify-between gap-2 w-2/6'>
         <input type="text" placeholder='Search' className='rounded-full bg-[#F4F4F4] w-full focus:outline-none'/>
         <IoSearch className='text-2xl text-gray-500 cursor-pointer'/>
