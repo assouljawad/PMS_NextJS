@@ -9,7 +9,7 @@ import { MdOutlineDarkMode } from "react-icons/md";
 function Header() {
   return (
    <div className='bg-white mt-6 w-full'>
-    <div className='flex justify-between items-center mx-auto p-4 w-3/4'>
+    <div className='flex justify-between items-center mx-auto py-4 w-4/6'>
       <Link href={"/"} className='flex gap-2 items-center cursor-pointer'>
       <IoNewspaperOutline className='text-4xl' />
       <span className='text-3xl font-bold'>BlogPost</span>
