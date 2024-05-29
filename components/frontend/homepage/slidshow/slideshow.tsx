@@ -46,7 +46,9 @@ function Slideshow() {
   useEffect(()=>{
 
 setInterval(()=>{
-},3000)
+  const index = Math.floor(Math.random() * posts.length)
+  setcurrIndex(index)
+},4000)
 
   },[])
         return (
@@ -56,7 +58,7 @@ setInterval(()=>{
                 <span className="bg-[#ECEDF3] py-2 px-4 text-[#5A67D8] cursor-pointer font-bold rounded-full w-2/12 text-center">
                   {posts[currIndex].category}
                 </span>
-                <h1 className="text-6xl font-bold">{posts[currIndex].title}</h1>
+                <h1 className="text-4xl font-bold">{posts[currIndex].title}</h1>
                 <p className="text-2xl text-[#79879C] font-semibold">
                   {posts[currIndex].text}
                 </p>
@@ -65,18 +67,18 @@ setInterval(()=>{
                 {posts.map((post, index)=>{
                   return <GoDotFill key={index} onClick={()=>{
                     setcurrIndex(index)
-                  }} className="text-6xl text-[#79879C] hover:text-[#5A67D8] cursor-pointer" />
+                  }} className="text-3xl text-[#79879C] hover:text-[#5A67D8] cursor-pointer" />
                 })}
               </div>
             </div>
-            <div className="w-2/6">
+            <div className="w-2/6 drop-shadow-2xl">
               <Image
-                className="rounded-2xl h-full"
+                className="rounded-2xl h-full w-full"
                 priority={true}
                 alt={"slide image"}
                 src={posts[currIndex].image}
-                width={600}
-                height={600}
+                width={380}
+                height={380}
               />
             </div>
           </div>
