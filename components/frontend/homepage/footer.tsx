@@ -13,7 +13,7 @@ function Footer() {
             <IoNewspaperOutline className="text-4xl" />
             <span className="text-3xl font-bold">BlogPost</span>
           </Link>{" "}
-          <h1 className="text-lg">© 2020. All Rights Reserved.</h1>
+          <h1 className="text-lg">© 2024. All Rights Reserved.</h1>
           <h1 className="text-lg">Made by <a href="https://www.assoul.dev">assoul.dev</a></h1>
         </div>
         <div className=" flex flex-col gap-4 p-8">
